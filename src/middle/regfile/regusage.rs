@@ -1,6 +1,8 @@
 use super::RegisterId;
 use fixedbitset::FixedBitSet;
 
+#[allow(unused_imports)]
+use super::SubRegisterFile;
 /// The set of registers (possibly including the memory "register") that a
 /// function reads and/or preserves.
 ///
